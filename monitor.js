@@ -11,7 +11,7 @@ const readline = require('readline');
 
     if (extensions.length === 0) {
       console.log('No extension targets found.');
-      console.log('👉 Open an extension popup and keep DevTools open.');
+      console.log('Open an extension popup and keep DevTools open.');
       process.exit(0);
     }
 
