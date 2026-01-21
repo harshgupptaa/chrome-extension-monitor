@@ -1,0 +1,12 @@
+{
+  "name": "chrome-extension-monitor",
+  "version": "1.0.0",
+  "description": "External monitor for installed Chrome extensions using Chrome DevTools Protocol",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.33.0"
+  }
+}
